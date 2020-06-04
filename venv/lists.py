@@ -1,0 +1,25 @@
+num = [50,24,16,48,49,74]
+print(num)
+print(num[0])
+print(num[1:])
+print(num[-2:])
+names = ['Nani','Sunny','Anuhya']
+print(names)
+values = [9.3,'Nani',37]
+print(values)
+print(names,num)
+(num.remove(16))
+(num.append(40))
+(num.insert(5,60))
+print(num)
+print(min(num))
+print(max(num))
+print(sum(num))
+(num.sort())
+print(num)
+print(num[0])
+print(len(num))
+print([1,2,5,6,8,6,6]+[6,5,8,5,56,5,65])
+print(['hi']*5)
+Q = [15,65,87,90,45,37,90,54]
+print(Q.count(45))
